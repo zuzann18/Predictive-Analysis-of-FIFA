@@ -17,7 +17,7 @@ FIFA Rankings and Points: Including total points, previous points, rank, and ran
 ## Model Training
 A Random Forest Classifier within a MultiOutputRegressor framework is used. This setup allows for predicting multiple outputs at once, in this case, the scores of both the home and away teams.
 The model is trained on historical match data alongside the corresponding FIFA rankings.
-Prediction
+## Prediction
 For making predictions, the features are prepared in the same way as the training data. The features include the team IDs (transformed into numeric codes), their respective ranks, and points from the FIFA rankings.
 The model predicts the likely scoreline of the matches, which are then used to determine the match outcomes.
 ## Evaluation
