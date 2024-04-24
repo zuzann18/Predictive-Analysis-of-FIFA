@@ -7,12 +7,17 @@
 ## Feature Engineering:
 New features were engineered, including FIFA rankings and match-specific variables like team groupings for the World Cup. These features are predictors that significantly influence match outcomes and were included to enhance model accuracy.
 
-Cleaning and Structuring: After loading the data, the initial steps involved converting the date column to a datetime format, which is critical for time series analysis.
-**Data cleaning**: handling missing values by removing any records with incomplete data
-**Categorical and Numerical Variable Processing**: Match Results are used as labels for training the model, with results categorized into 'Win', 'Lost', or 'Draw' based on the scoreline. Key variables included the match outcome, which was treated as a categorical dependent variable (win, loss, draw). Numerical data such as match scores were also crucial and underwent normalization to ensure they were properly scaled for the predictive models.
+#### Cleaning and Structuring: 
+The initial steps involved converting the date column to a datetime format, which is critical for time series analysis. 
+Home and Away Teams - identifiers for teams which are later transformed into numeric codes. Converting team names into numerical data.
+Calculating FIFA ranking points. 
+#### **Data cleaning**: 
+handling missing values by removing any records with incomplete data
+#### **Categorical and Numerical Variable Processing**:
+Match Results are used as labels for training the model, with results categorized into 'Win', 'Lost', or 'Draw' based on the scoreline. Key variables included the match outcome, which was treated as a categorical dependent variable (win, loss, draw). Numerical data such as match scores were also crucial and underwent normalization to ensure they were properly scaled for the predictive models.
 
-Home and Away Teams: Identifiers for teams which are later transformed into numeric codes.
-FIFA Rankings and Points: Including total points, previous points, rank, and rank change for both home and away teams.
+## Exploratory Data Analysis (EDA):
+utilizing visualizations like box plots to examine the distribution of goals scored by home and away teams. This helped identify any potential biases or trends, such as home advantage, that might influence model outcomes.
 
 ## Model Training
 A Random Forest Classifier within a MultiOutputRegressor framework is used. This setup allows for predicting multiple outputs at once, in this case, the scores of both the home and away teams.
