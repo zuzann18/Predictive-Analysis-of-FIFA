@@ -9,8 +9,13 @@ This project aims to analyze and predict outcomes of the FIFA World Cup, leverag
 - To analyze historical data of World Cup matches.
 - To predict match outcomes based on statistical modeling.
 
-## Predictive Modeling:
-Feature Engineering: New features were engineered, including FIFA rankings and match-specific variables like team groupings for the World Cup. These features are predictors that significantly influence match outcomes and were included to enhance model accuracy.
+## Feature Engineering:
+New features were engineered, including FIFA rankings and match-specific variables like team groupings for the World Cup. These features are predictors that significantly influence match outcomes and were included to enhance model accuracy.
+
+Cleaning and Structuring: After loading the data, the initial steps involved converting the date column to a datetime format, which is critical for time series analysis.
+data cleaning :handling missing values by removing any records with incomplete data
+Categorical and Numerical Variable Processing: Key variables included the match outcome, which was treated as a categorical dependent variable (win, loss, draw). Numerical data such as match scores were also crucial and underwent normalization to ensure they were properly scaled for the predictive models.
+
 
 
 ## Technologies Used
