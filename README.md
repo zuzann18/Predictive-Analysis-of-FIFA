@@ -34,10 +34,14 @@ After prediction, the outcomes are evaluated by comparing them against true resu
 
 The predictions (prd) are then evaluated using the classification_report from scikit-learn, which provides metrics such as precision, recall, f1-score, and support for each class of scores for both home and away predictions. This helps in assessing how well the model is predicting each possible score.
 ### Performance Metrics Used:
-Precision: Indicates the accuracy of positive predictions for each score.
-Recall: Measures the ability of the model to capture all actual instances of each score.
-F1-Score: Harmonic mean of precision and recall, providing a single metric to gauge the quality of predictions, especially useful with imbalanced classes.
-Support: The number of actual occurrences of each class in the dataset, which helps understand the class distribution.
+##### Precision: 
+Indicates the accuracy of positive predictions for each score.
+##### Recall: 
+Measures the ability of the model to capture all actual instances of each score.
+##### F1-Score: 
+Harmonic mean of precision and recall, providing a single metric to gauge the quality of predictions, especially useful with imbalanced classes.
+##### Support:
+The number of actual occurrences of each class in the dataset, which helps understand the class distribution.
 
 #### Why Use Random Forest?
 It is highly accurate and robust due to the number of decision trees participating in the process.
