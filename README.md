@@ -18,6 +18,7 @@ Match Results are used as labels for training the model, with results categorize
 
 ## Exploratory Data Analysis (EDA):
 Utilizing visualizations like box plots to examine the distribution of goals scored by home and away teams. This helped identify any potential biases or trends, such as home advantage, that might influence model outcomes.
+![image](https://github.com/zuzann18/Predictive-Analysis-of-FIFA/assets/62249691/711e1847-7b08-47be-b3dd-dfd47132ce6f)
 
 ## Model Training
 A Random Forest Classifier within a MultiOutputRegressor framework is used. This setup allows for predicting multiple outputs at once, in this case, the scores of both the home and away teams.
