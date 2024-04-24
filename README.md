@@ -28,7 +28,11 @@ The model predicts the likely scoreline of the matches, which are then used to d
 ## Evaluation
 After prediction, the outcomes are evaluated by comparing them against true results to measure the accuracy and performance of the model. 
 
-
+#### Why Use Random Forest?
+It is highly accurate and robust due to the number of decision trees participating in the process.
+It does not overfit the model due to the mechanism of averaging and bootstrapping.
+The model also handles missing values and maintains accuracy for missing data.
+It gives estimates of what variables are important in the classification.
 
 ## Technologies Used
 - **Jupyter Notebook**: For interactive data analysis and model development.
