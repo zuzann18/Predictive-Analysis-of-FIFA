@@ -3,11 +3,15 @@ Predictive Analysis of FIFA World Cup 2022
 # World Cup Analysis Project
 
 ## Overview
-This project aims to analyze and predict outcomes of the FIFA World Cup, leveraging a data-driven approach to explore patterns, performances, and predict future match results. Through meticulous data processing and model building, we uncover insights into the dynamics of football's most prestigious tournament.
+This project aims to analyze and predict outcomes of the FIFA World Cup, leveraging a data-driven approach to explore patterns, performances, and predict future match results. 
 
 ## Objectives
 - To analyze historical data of World Cup matches.
 - To predict match outcomes based on statistical modeling.
+
+## Predictive Modeling:
+Feature Engineering: New features were engineered, including FIFA rankings and match-specific variables like team groupings for the World Cup. These features are predictors that significantly influence match outcomes and were included to enhance model accuracy.
+
 
 ## Technologies Used
 - **Jupyter Notebook**: For interactive data analysis and model development.
