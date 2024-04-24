@@ -39,7 +39,7 @@ Indicates the accuracy of positive predictions for each score.
 ##### Recall: 
 Measures the ability of the model to capture all actual instances of each score.
 ##### F1-Score: 
-Harmonic mean of precision and recall, providing a single metric to gauge the quality of predictions, especially useful with imbalanced classes.
+Harmonic mean of precision and recall, providing a single metric to gauge the quality of predictions, especially useful with imbalanced classes. A high F1-score suggests a robust balance between precision and recall. It is especially important when you need a reliable model that does not favor precision over recall or vice versa. For sports scores, this means the model accurately predicts the scores while also not missing many actual scores
 ##### Support:
 The number of actual occurrences of each class in the dataset, which helps understand the class distribution.
 
